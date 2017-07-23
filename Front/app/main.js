@@ -2,7 +2,7 @@ import App from './App.js'
 
 window.onload = function () {
     let modal = document.getElementById('modal')
-    let link = "35.189.23.43:3001"//"35.189.106.135" + ":3001"//"127.0.0.7:3001" //
+    let link = "35.189.106.135" + ":3001"//"127.0.0.7:3001" //
     var socket = new WebSocket("ws://" + link);
 
     socket.onopen = function (event) {
